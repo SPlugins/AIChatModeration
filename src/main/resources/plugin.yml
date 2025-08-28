@@ -1,0 +1,22 @@
+name: AIChatModeration
+version: ${project.version}
+main: com.ssomar.aichatmoderation.AIChatModeration
+api-version: 1.13
+author: Ssomar
+description: Chat Moderation plugin AI-Powered
+commands:
+  acm:
+    description: acm command
+    usage: /<command> [ reload [ debug ]
+permissions:
+  acm.reload:
+    description: Allows the command /acm reload
+    default: op
+  acm.debug:
+    description: Allows the command /acm reload
+    default: op
+  acm.bypass:
+    description: Allows the player to bypass the chat moderation
+    default: false
+
+folia-supported: true
