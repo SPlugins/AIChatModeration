@@ -4,7 +4,7 @@
   <groupId>com.ssomar</groupId>
   <artifactId>AIChatModeration</artifactId>
   <name>AIChatModeration</name>
-  <version>1.25.9.18</version>
+  <version>1.25.9.21</version>
   <build>
     <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
     <resources>
